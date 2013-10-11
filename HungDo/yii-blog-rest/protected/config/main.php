@@ -29,10 +29,20 @@ return array(
 		),
 		
 		#Using cache with CDbCache
-		'cache'=>array(
-            'class'=>'system.caching.CDbCache',
+//		'cache'=>array(
+//            //'class'=>'system.caching.CDbCache',
+//        ),
+        'cache'=>array(
+                'class'=>'ext.redis.CRedisCache',
+                //if you dont set up the servers options it will use the default one 
+//                        "host"=>'127.0.0.1',"port"=>6379"
+                'servers'=>array(
+                        array(
+                                'host'=>'127.0.0.1',
+                                'port'=>6379,
+                        ),
+                ),
         ),
-		
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',

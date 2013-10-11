@@ -2,12 +2,11 @@
 
 // change the following paths if necessary
 // 4office
-$yii=dirname(__FILE__).'/../framework/yii.php';
-// echo $yii;die;
-// 00584
-// $yii='C:/Frameworks/yii/yii.php';
-$config=dirname(__FILE__).'/protected/config/main.php';
+//$yii=dirname(__FILE__).'/../framework/yii.php';
+//$config=dirname(__FILE__).'/protected/config/main.php';
 
+$yii=dirname(__FILE__).'../framework/yii.php';//'../../Yii/framework/yii.php';
+$config=dirname(__FILE__).'/protected/config/main.php';
 // remove the following line when in production mode
 // defined('YII_DEBUG') or define('YII_DEBUG',true);
 

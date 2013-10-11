@@ -39,6 +39,7 @@ return array(
 			'rules'=>array(
 				'<controller:\w+>/<action:detail>/<author_id:\d+>' => '<controller>/<action>',
 				'<controller:\w+>/<action:update>/<author_id:\d+>' => '<controller>/<action>',
+				'<controller:\w+>/<action:remove>/<author_id:\d+>' => '<controller>/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

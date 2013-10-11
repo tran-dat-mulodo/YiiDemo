@@ -1479,3 +1479,12 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/YiiDemo/ToanLe/simple-blog/post/1
 ---
+2013/10/11 17:28:50 [error] [php] Use of undefined constant TIME_CACHED_DATA - assumed 'TIME_CACHED_DATA' (/Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/controllers/PostController.php:19)
+Stack trace:
+#0 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CController.php(286): PostController->runAction()
+#1 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CController.php(265): PostController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php(282): PostController->run()
+#3 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/YiiDemo/ToanLe/simple-blog/post/

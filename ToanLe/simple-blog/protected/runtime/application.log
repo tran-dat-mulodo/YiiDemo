@@ -1,0 +1,991 @@
+2013/10/10 15:53:00 [error] [exception.CDbException] SQLSTATE[HY000] [2005] Unknown MySQL server host '127.0.0.1' (2)
+2013/10/10 15:53:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/ar/CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#12 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#13 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CBaseController.php(147): CListView->init()
+#14 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 /Applications/MAMP/htdocs/yii-blog-rest/protected/views/post/index.php(9): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CBaseController.php(126): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#18 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#19 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#20 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/PostController.php(136): CController->render('index', Array)
+#21 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): PostController->actionIndex()
+#22 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#25 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(291): CFilterChain->run()
+#29 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('')
+#31 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#32 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#33 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#34 {main}
+REQUEST_URI=/yii-blog-rest/
+HTTP_REFERER=http://localhost:8888/
+---
+2013/10/10 16:32:13 [error] [php] Missing argument 1 for CController::__construct(), called in /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php on line 144 and defined (/Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php:110)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts
+2013/10/10 16:32:48 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(365): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(161): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/posts
+---
+2013/10/10 16:44:56 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(366): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(162): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/posts
+---
+2013/10/10 16:47:24 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(368): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:48:06 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(368): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:48:07 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(368): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:48:12 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:48:19 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:48:37 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:48:55 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:49:01 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:49:05 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:49:10 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:49:20 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(369): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(164): ApiBase->_detect_method()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:56:15 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.uri" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(173): CComponent->__get('uri')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 16:56:24 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.uri" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(174): CComponent->__get('uri')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:03:35 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(337): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(183): ApiBase->_detect_input_format()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:04:00 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(337): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(183): ApiBase->_detect_input_format()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:04:34 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(337): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(183): ApiBase->_detect_input_format()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:04:34 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(337): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(183): ApiBase->_detect_input_format()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:05:10 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(337): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(183): ApiBase->_detect_input_format()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:05:13 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.input" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(337): CComponent->__get('input')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(183): ApiBase->_detect_input_format()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:06:02 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:337)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:06:14 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:337)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:06:16 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:337)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:07:32 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:338)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:07:40 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:338)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:07:42 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:338)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:07:43 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:338)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:08:18 [error] [php] Undefined index:  CONTENT_TYPE (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:338)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+2013/10/10 17:09:50 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.config" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(208): CComponent->__get('config')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:10:16 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.config" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(208): CComponent->__get('config')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:10:21 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.config" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(208): CComponent->__get('config')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:10:34 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.config" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(208): CComponent->__get('config')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(359): ApiBase->__construct('api', NULL)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(276): CWebApplication->createController('api/list')
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/post
+---
+2013/10/10 17:22:00 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "httpval".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(266): CComponent->__call('httpval', Array)
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(266): CWebApplication->httpval()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+---
+2013/10/10 17:44:52 [error] [php] include(Region.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/yii-blog-rest/protected/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/RegionSingleton.php(20): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php(111): RegionSingleton->getModel()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/RegionSingleton.php(27): RegionSingleton->__get()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php(111): RegionSingleton->getId()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/SiteController.php(45): RegionSingleton->__get()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): SiteController->runAction()
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/site/contact
+2013/10/10 17:57:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Teo" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('Teo')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/SiteController.php(46): CModule->__get('Teo')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/site/contact
+---
+2013/10/10 17:57:47 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Teo" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('Teo')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/SiteController.php(46): CModule->__get('Teo')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/site/contact
+---
+2013/10/10 17:57:47 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Teo" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('Teo')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/SiteController.php(46): CModule->__get('Teo')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/site/contact
+---
+2013/10/10 17:57:48 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Teo" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('Teo')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/SiteController.php(46): CModule->__get('Teo')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/site/contact
+---
+2013/10/10 17:57:48 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Teo" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('Teo')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/SiteController.php(46): CModule->__get('Teo')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/site/contact
+---
+2013/10/10 18:12:59 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.cu" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('cu')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(267): CModule->__get('cu')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:13:17 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.httpval" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CModule.php(105): CComponent->__get('httpval')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(277): CModule->__get('httpval')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:14:22 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.config" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(283): CComponent->__get('config')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:14:35 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "filter_empty_tag".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(291): CComponent->__call('filter_empty_ta...', Array)
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(291): ApiController->filter_empty_tag(Array)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:14:42 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "log_messages".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(305): CComponent->__call('log_messages', Array)
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(305): ApiController->log_messages('DEBUG', '200')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:14:44 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "log_messages".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(305): CComponent->__call('log_messages', Array)
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(305): ApiController->log_messages('DEBUG', '200')
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:14:49 [error] [exception.CException] exception 'CException' with message 'Property "ApiController.config" is not defined.' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php(307): CComponent->__get('config')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(77): ApiBase->response(Array)
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+---
+2013/10/10 18:18:13 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:293) (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:312)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+2013/10/10 18:18:13 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:293) (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:312)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+2013/10/10 18:23:50 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:293) (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:312)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+2013/10/10 18:23:50 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:293) (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:312)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/view/1
+2013/10/11 08:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/
+---
+2013/10/11 09:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/
+---
+2013/10/11 09:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/post/index
+HTTP_REFERER=http://localhost:8888/yii-blog-rest/
+---
+2013/10/11 09:00:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/post/index
+HTTP_REFERER=http://localhost:8888/yii-blog-rest/index.php/site/page?view=about
+---
+2013/10/11 09:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/post/index
+HTTP_REFERER=http://localhost:8888/yii-blog-rest/index.php/site/page?view=about
+---
+2013/10/11 09:00:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/post/index
+HTTP_REFERER=http://localhost:8888/yii-blog-rest/index.php/site/page?view=about
+---
+2013/10/11 09:01:19 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:72)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 09:01:30 [error] [php] Trying to get property of non-object (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:72)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 09:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/gii
+---
+2013/10/11 09:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "r=gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('r=gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/r=gii
+---
+2013/10/11 09:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "r=gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('r=gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/r=gii
+---
+2013/10/11 09:35:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/gii
+---
+2013/10/11 09:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/gii
+---
+2013/10/11 09:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('Gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/Gii
+---
+2013/10/11 09:36:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php/post/index
+HTTP_REFERER=http://localhost:8888/yii-blog-rest/index.php/Gii
+---
+2013/10/11 09:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php?r=gii
+---
+2013/10/11 09:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php?r=gii
+---
+2013/10/11 09:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php?r=gii
+---
+2013/10/11 09:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php?r=site/contact
+HTTP_REFERER=http://localhost:8888/yii-blog-rest/index.php?r=site/page&view=about
+---
+2013/10/11 09:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-blog-rest/index.php?
+---
+2013/10/11 10:00:29 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:29 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:53 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:54 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:54 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:54 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:54 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:54 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:00:59 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:72) (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:281)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:01:10 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:01:10 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:01:11 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:01:11 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:01:11 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:01:11 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php:85)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:37:40 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:263) (/Applications/MAMP/htdocs/yii-blog-rest/protected/components/ApiBase.php:281)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): ApiController->runAction()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+2013/10/11 10:44:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELEC * FROM tbl_post' at line 1. The SQL statement executed was: SELEC * FROM tbl_post.
+2013/10/11 10:44:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELEC * FROM tbl_post' at line 1' in /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii-blog-rest/protected/controllers/ApiController.php(75): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#3 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(282): CController->run('view')
+#7 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 /Applications/MAMP/htdocs/yii-blog-rest/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/yii-blog-rest/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-blog-rest/index.php/api/posts/1
+---

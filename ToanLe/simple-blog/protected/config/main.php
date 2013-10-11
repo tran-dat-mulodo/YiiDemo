@@ -61,6 +61,9 @@ return array(
         	'port' => 6379,
         	'database' => 0
         ),
+        'fixture' => array(
+        	'class' => 'system.test.CDbFixtureManager',
+        ),
         'urlManager'=>array(
         	'urlFormat'=>'path',
         	'showScriptName' => false,

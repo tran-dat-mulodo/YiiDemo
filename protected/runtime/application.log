@@ -1,0 +1,638 @@
+2013/10/10 17:52:51 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1381402371
+2013/10/10 17:52:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: YiiCache. The SQL statement executed was: DELETE FROM YiiCache WHERE expire>0 AND expire<1381402371.
+2013/10/10 17:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 17:52:51 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1381402371
+2013/10/10 17:52:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: YiiCache. The SQL statement executed was: DELETE FROM YiiCache WHERE expire>0 AND expire<1381402371.
+2013/10/10 17:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 17:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 17:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:08:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/cli/commands/ShellCommand.php(78): require('/Applications/M...')
+#6 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleCommandRunner.php(71): ShellCommand->run(Array)
+#7 /Applications/MAMP/htdocs/unittest/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /Applications/MAMP/htdocs/unittest/framework/yiic.php(33): CApplication->run()
+#10 /Applications/MAMP/htdocs/unittest/protected/yiic.php(7): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/unittest/protected/yiic(4): require_once('/Applications/M...')
+#12 {main}
+REQUEST_URI=/index.php
+---
+2013/10/10 18:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/
+---
+2013/10/10 18:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/
+---
+2013/10/10 18:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/index.php
+---
+2013/10/10 18:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/index.php
+---
+2013/10/10 18:39:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/
+HTTP_REFERER=http://localhost/
+---
+2013/10/11 10:34:14 [error] [php] include_once(library/OAuthStore.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:9)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(354): require()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/getallpost.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (9)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (9)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/getAllPostController.php (2)
+2013/10/11 10:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api1post/1".' in /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('api1post/1')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unittest/index.php/api1post/1
+---
+2013/10/11 10:44:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api1post".' in /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('api1post')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unittest/index.php/api1post
+---
+2013/10/11 10:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "getAllcomment.xml".' in /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('getAllcomment.x...')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unittest/index.php/getAllcomment.xml
+---
+2013/10/11 10:48:22 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/unittest/protected/controllers/getAllcommentController.php:17) (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:62)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/protected/controllers/getAllcommentController.php(26): getAllcommentController->response()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): getAllcommentController->actionList()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): getAllcommentController->runAction()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): getAllcommentController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): getAllcommentController->run()
+#6 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/getallcomment.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (62)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (121)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/getAllcommentController.php (26)
+2013/10/11 14:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('list')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('list')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/list')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/index.php/comment.xml
+---
+2013/10/11 14:02:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /Applications/MAMP/htdocs/unittest/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(270): CController->missingAction('list')
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CController->run('list')
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/list')
+#3 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unittest/index.php/comment.xml
+---
+2013/10/11 15:41:00 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:43:25 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.xml/1".' in /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.xml/1')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unittest/index.php/comment.xml/1
+---
+2013/10/11 15:45:09 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:56:38 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:56:50 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:57:38 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:58:09 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:58:26 [error] [php] Undefined index:  1.json (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.json
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:58:33 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:59:26 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:59:40 [error] [php] Undefined index:  1.json (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.json
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:59:44 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 15:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.xml/1".' in /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.xml/1')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unittest/index.php/comment.xml/1
+---
+2013/10/11 16:00:08 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 16:00:13 [error] [php] Undefined index:  1.xml (/Applications/MAMP/htdocs/unittest/protected/components/ApiController.php:63)
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/web/actions/CInlineAction.php(49): CommentController->actionList()
+#1 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(286): CommentController->runAction()
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(282): CommentController->run()
+#5 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/unittest/index.php(13): CWebApplication->run()
+REQUEST_URI=/unittest/index.php/comment/1.xml
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (63)
+in /Applications/MAMP/htdocs/unittest/protected/components/ApiController.php (120)
+in /Applications/MAMP/htdocs/unittest/protected/controllers/CommentController.php (29)
+2013/10/11 16:19:09 [error] [exception.CException] exception 'CException' with message 'Property "CRedisCache.0" is not defined.' in /Applications/MAMP/htdocs/unittest/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/YiiBase.php(220): CComponent->__set('0', 'host=>'127.0.0....')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CUrlManager.php(216): CModule->getComponent('cache')
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#4 /Applications/MAMP/htdocs/unittest/framework/base/CModule.php(387): CUrlManager->init()
+#5 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(522): CModule->getComponent('urlManager')
+#6 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#7 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/unittest/
+HTTP_REFERER=http://localhost/
+---
+2013/10/11 16:20:38 [error] [exception.CException] exception 'CException' with message 'Property "CRedisCache.0" is not defined.' in /Applications/MAMP/htdocs/unittest/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/unittest/framework/YiiBase.php(220): CComponent->__set('0', 'host=>'127.0.0....')
+#1 /Applications/MAMP/htdocs/unittest/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /Applications/MAMP/htdocs/unittest/framework/web/CUrlManager.php(216): CModule->getComponent('cache')
+#3 /Applications/MAMP/htdocs/unittest/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#4 /Applications/MAMP/htdocs/unittest/framework/base/CModule.php(387): CUrlManager->init()
+#5 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(522): CModule->getComponent('urlManager')
+#6 /Applications/MAMP/htdocs/unittest/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#7 /Applications/MAMP/htdocs/unittest/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/unittest/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/unittest/
+---

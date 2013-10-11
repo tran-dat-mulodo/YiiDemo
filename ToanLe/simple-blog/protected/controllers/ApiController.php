@@ -30,61 +30,22 @@ class ApiController extends ApiBase
         echo CJSON::encode(array(1, 2, 3));
     } 
     public function actionList()
-    {
-        //$this->_checkAuth();
-        switch($_GET['model'])
-        {
-            case 'posts':  
-                $models = Post::model()->findAll();
-                
-                break;  
-            default:  
-                $this->_sendResponse(501, sprintf('Error: Mode <b>list</b> is not implemented for model <b>%s</b>',$_GET['model']) );
-                exit;  
-        }
-        if(is_null($models)) {
-            $this->_sendResponse(200, sprintf('No items where found for model <b>%s</b>', $_GET['model']) );
-        } else {
-            $rows = array();
-            foreach($models as $model)
-                $rows[] = $model->attributes;
-
-            $this->_sendResponse(200, CJSON::encode($rows));
-        }
+    { 
+    	    	 
+    	if($_GET['model'] === "posts"){
+    		$array_result_init = array('error'=>array('status'=>200, 'message'=>''));
+    		$data = Yii::app()->db->createCommand('SELECT * FROM tbl_post')->queryAll();
+    		
+    		echo $this->response(array_merge($array_result_init, $data));
+    	}
+    	else
+    	{    		
+	    	//$error = array('error' => array('status' => 503, 'message' => 'This Api is just support for Posts Model'));
+	    	$this->_set_error(503, 'This API is only support TEST for Post Model');
+	    	echo $this->response($this->get_error());
+    	}
     }  
-    /* Shows a single item
-     * 
-     * @access public
-     * @return void
-     */
-    public function actionView()
-    {
-        //$this->_checkAuth();
-        // Check if id was submitted via GET
-        
-//     	$teo = array('error' => 'message');
-//     	$this->response($teo);
-//     	die;
-    	
-        if(!isset($_GET['id']))
-            $this->_sendResponse(500, 'Error: Parameter <b>id</b> is missing' );
-        
-        switch($_GET['model'])
-        {       
-            case 'posts':  
-            	$data = Yii::app()->db->createCommand('SELECT * FROM tbl_post')->queryAll();
-            	echo $this->response($data);                               
-                break;  
-            default:  
-                $this->response(501, sprintf('Mode <b>view</b> is not implemented for model <b>%s</b>',$_GET['model']) );
-                exit;  
-        }
-        if(is_null($model)) {
-            $this->response(404, 'No Item found with id '.$_GET['id']);
-        } else {
-            $this->response(200, $this->_getObjectEncoded($_GET['model'], $model->attributes));
-        }
-    } 
+     
         
     /**
      * Creates a new item
@@ -229,9 +190,7 @@ class ApiController extends ApiBase
         else
             $this->_sendResponse(500, sprintf("Error: Couldn't delete model <b>%s</b> with ID <b>%s</b>.",$_GET['model'], $_GET['id']) );
     } // }}} 
-    // }}} End Actions
-    // {{{ Other Methods
-    // {{{ _sendResponse
+    
     /**
      * Sends the API response 
      * 
@@ -424,4 +383,3 @@ class ApiController extends ApiBase
 }
 
 /* vim:set ai sw=4 sts=4 et fdm=marker fdc=4: */
-?>

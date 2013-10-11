@@ -1,5 +1,5 @@
 <?php
-class Teo extends CApplicationComponent
+class HttpValComp extends CApplicationComponent
 {
 
 	private $_data = array();
@@ -13,6 +13,7 @@ class Teo extends CApplicationComponent
 	}
 	public function __construct($data = null, $from_type =null){
 			
+		Yii::import('ext.helpers.InflectorHelper');
 		//get_instance()->load->helper('inflector');
 		// If the provided data is already formatted we should probably convert it to an array
 		if ($from_type !== null)
@@ -104,7 +105,8 @@ class Teo extends CApplicationComponent
 				}
 	
 				// make string key...
-				$key = singularize($basenode);
+				//$key = singularize($basenode);
+				$key = InflectorHelper::singular($basenode);
 				$key = ( $key!= $basenode) ? $key : $_node;
 				 
 	
@@ -134,7 +136,8 @@ class Teo extends CApplicationComponent
 				$structure->addChild($key, $value);
 			}
 		}
-	
+		
+	//
 		return $structure->asXML();
 	}
 	

@@ -263,8 +263,6 @@ class ApiBase extends CController {
 			
 			is_numeric($http_code) OR $http_code = 200;
 			
-			//var_dump(Yii::app()->httpval); die;
-			//Yii::app()->cu->teo(); die;
 			// If the format method exists, call and return the output in that format
 			
 			if (method_exists($this, '_format_'.$this->response->format))
@@ -276,7 +274,7 @@ class ApiBase extends CController {
 				
 			}			
 			// If the format method exists, call and return the output in that format
-			elseif (method_exists(Yii::app()->teo, 'to_'.$this->response->format))
+			elseif (method_exists(Yii::app()->httpval, 'to_'.$this->response->format))
 			{
 				
 				// Set the correct format header				
@@ -287,8 +285,8 @@ class ApiBase extends CController {
 
  				// remove empty-unrequrire tag
 				//$this->filter_empty_tag($data);
-
-				$output= Yii::app()->teo->factory($data)->{'to_'.$this->response->format}($data, null,$info_root,$defnode);
+				
+				$output= Yii::app()->httpval->factory($data)->{'to_'.$this->response->format}($data, null,$info_root,$defnode);
 				
 				
 			}
@@ -301,6 +299,8 @@ class ApiBase extends CController {
 			}
 		}
 		
+		$output = trim($output);
+		//var_dump($output); die;
 		//$retmsg = $this -> get_errorString();
 		//$this->log_messages('DEBUG', $retmsg);
 			
@@ -322,10 +322,7 @@ class ApiBase extends CController {
 // 		}
 		
 		header('Content-Length: ' . strlen($output));
-		
-		header('Content-type: application/xml');
-		
-		
+				//var_dump($output); die;		
 		return $output;
 
 	}

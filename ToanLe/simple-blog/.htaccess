@@ -1,4 +1,8 @@
-<Limit GET POST PUT DELETE>
-order deny,allow
-allow from all
-</Limit>
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

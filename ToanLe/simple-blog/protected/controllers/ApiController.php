@@ -100,96 +100,10 @@ class ApiController extends ApiBase
 
         var_dump($_REQUEST);
     } // }}}     
-    // {{{ actionUpdate
-    /**
-     * Update a single iten
-     * 
-     * @access public
-     * @return void
-     */
-    public function actionUpdate()
-    {
-        //$this->_checkAuth();
-
-        // Get PUT parameters
-        parse_str(file_get_contents('php://input'), $put_vars);
-
-        switch($_GET['model'])
-        {
-            // Find respective model
-            case 'posts': // {{{ 
-                $model = Post::model()->findByPk($_GET['id']);                    
-                break; // }}} 
-            default: // {{{ 
-                $this->_sendResponse(501, sprintf('Error: Mode <b>update</b> is not implemented for model <b>%s</b>',$_GET['model']) );
-                exit; // }}} 
-        }
-        if(is_null($model))
-            $this->_sendResponse(400, sprintf("Error: Didn't find any model <b>%s</b> with ID <b>%s</b>.",$_GET['model'], $_GET['id']) );
-        
-        // Try to assign PUT parameters to attributes
-        foreach($put_vars as $var=>$value) {
-            // Does model have this attribute?
-            if($model->hasAttribute($var)) {
-                $model->$var = $value;
-            } else {
-                // No, raise error
-                $this->_sendResponse(500, sprintf('Parameter <b>%s</b> is not allowed for model <b>%s</b>', $var, $_GET['model']) );
-            }
-        }
-        // Try to save the model
-        if($model->save()) {
-            $this->_sendResponse(200, sprintf('The model <b>%s</b> with id <b>%s</b> has been updated.', $_GET['model'], $_GET['id']) );
-        } else {
-            $msg = "<h1>Error</h1>";
-            $msg .= sprintf("Couldn't update model <b>%s</b>", $_GET['model']);
-            $msg .= "<ul>";
-            foreach($model->errors as $attribute=>$attr_errors) {
-                $msg .= "<li>Attribute: $attribute</li>";
-                $msg .= "<ul>";
-                foreach($attr_errors as $attr_error) {
-                    $msg .= "<li>$attr_error</li>";
-                }        
-                $msg .= "</ul>";
-            }
-            $msg .= "</ul>";
-            $this->_sendResponse(500, $msg );
-        }
-    } // }}} 
-    // {{{ actionDelete
-    /**
-     * Deletes a single item
-     * 
-     * @access public
-     * @return void
-     */
-    public function actionDelete()
-    {
-        //$this->_checkAuth();
-
-        switch($_GET['model'])
-        {
-            // Load the respective model
-            case 'posts': // {{{ 
-                $model = Post::model()->findByPk($_GET['id']);                    
-                break; // }}} 
-            default: // {{{ 
-                $this->_sendResponse(501, sprintf('Error: Mode <b>delete</b> is not implemented for model <b>%s</b>',$_GET['model']) );
-                exit; // }}} 
-        }
-        // Was a model found?
-        if(is_null($model)) {
-            // No, raise an error
-            $this->_sendResponse(400, sprintf("Error: Didn't find any model <b>%s</b> with ID <b>%s</b>.",$_GET['model'], $_GET['id']) );
-        }
-
-        // Delete the model
-        $num = $model->delete();
-        if($num>0)
-            $this->_sendResponse(200, sprintf("Model <b>%s</b> with ID <b>%s</b> has been deleted.",$_GET['model'], $_GET['id']) );
-        else
-            $this->_sendResponse(500, sprintf("Error: Couldn't delete model <b>%s</b> with ID <b>%s</b>.",$_GET['model'], $_GET['id']) );
-    } // }}} 
+     
+    
+     
+     
     
     /**
      * Sends the API response 

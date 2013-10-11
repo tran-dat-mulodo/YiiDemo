@@ -72,8 +72,11 @@ return array(
 //                         array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
 //                         array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
 //                         array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'), // Create
-        				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                        '<controller:\w+>'=>'<controller>/list',
+
+						array('<controller>/view', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'GET'),
+						array('<controller>/list', 'pattern' => '<controller:\w+>', 'verb' => 'GET'),
+						array('<controller>/update', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'PUT'),
+        			
                         
         	),
         ),

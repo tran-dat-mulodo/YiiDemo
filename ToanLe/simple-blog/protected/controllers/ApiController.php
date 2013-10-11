@@ -15,6 +15,7 @@ class ApiController extends ApiBase
      * Key which has to be in HTTP USERNAME and PASSWORD headers 
      */
     Const APPLICATION_ID = 'ASCCPE';
+    protected  $init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
 
     private $format = 'json';
     /**
@@ -24,28 +25,7 @@ class ApiController extends ApiBase
     {
             return array();
     } 
-    public function actionIndex()
-    {
-        echo CJSON::encode(array(1, 2, 3));
-    } 
-    public function actionList()
-    { 
-    	    	 
-    	if($_GET['model'] === "posts"){
-    		$array_result_init = array('error'=>array('status'=>200, 'message'=>''));
-    		$data = Yii::app()->db->createCommand('SELECT * FROM tbl_post')->queryAll();
-    		
-    		echo $this->response(array_merge($array_result_init, $data));
-    	}
-    	else
-    	{    		
-	    	//$error = array('error' => array('status' => 503, 'message' => 'This Api is just support for Posts Model'));
-	    	$this->_set_error(503, 'This API is only support TEST for Post Model');
-	    	echo $this->response($this->get_error());
-    	}
-    }  
-     
-  
+    
     
     /**
      * Gets the message for a status code
@@ -104,8 +84,8 @@ class ApiController extends ApiBase
         );
 
         return (isset($codes[$status])) ? $codes[$status] : '';
-    } // }}} 
-    // {{{ _checkAuth
+    }
+    
     /**
      * Checks if a request is authorized
      * 

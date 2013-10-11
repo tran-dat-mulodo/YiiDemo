@@ -4,12 +4,12 @@ Yii::import('application.controllers.ApiController');
 
 class PostController extends ApiController
 {
+	
 	public function actionList()
 	{
 		Yii::log("action is list is called", 'info', 'application.controllers.PostController');
 		$cache = Yii::app()->cache;
-		$array_result_init = array('error'=>array('status'=>STATUS_SUCCESS, 'message'=>''));
-			
+				
 		$cached_data = $cache->get('cached_data');
 		if($cached_data == false)
 		{
@@ -23,19 +23,19 @@ class PostController extends ApiController
 			$data = $cached_data;
 		}
 			
-		echo $this->response(array_merge($array_result_init, $data));
+		echo $this->response(array_merge($this->init_array, $data));
 
 	}
 
 	public function actionView()
 	{
-		$array_result_init = array('error'=>array('status'=>STATUS_SUCCESS, 'message'=>''));
+		
 		$cache = Yii::app()->cache;
 		if(isset($_GET['id']))
 		{
 			$data = Post::model()->getItembyId($_GET['id']);
 
-			echo $this->response(array_merge($array_result_init, $data));
+			echo $this->response(array_merge($this->init_array, $data));
 		}
 
 	}
@@ -43,8 +43,6 @@ class PostController extends ApiController
 	public function actionUpdate()
 	{
 		// Get PUT parameters
-
-		$init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
 
 		try {
 
@@ -69,7 +67,7 @@ class PostController extends ApiController
 
 			// Try to save the model
 			if($model->save()) {
-				echo $this->response($init_array);
+				echo $this->response($this->init_array);
 			}
 			else {
 				throw new Exception("Message error", SERVER_ERROR);
@@ -85,7 +83,7 @@ class PostController extends ApiController
 	}
 
 	public function actionDelete() {
-		$init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
+		
 		$model = Post::model()->findByPk($_GET['id']);
 		try{
 			// Was a model found?
@@ -97,7 +95,7 @@ class PostController extends ApiController
 			// Delete the model
 			$num = $model->delete();
 			if($num>0)
-				echo $this->response($init_array);
+				echo $this->response($this->init_array);
 			else
 				throw new Exception("Message error", SERVER_ERROR);
 		}
@@ -110,8 +108,7 @@ class PostController extends ApiController
 	}
 
 	public function actionCreate()
-	{
-		$init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
+	{		
 		$model = new Post;
 
 		try {
@@ -127,7 +124,7 @@ class PostController extends ApiController
 			// Try to save the model
 			if($model->save()) {
 				// Saving was OK
-				echo $this->response($init_array);
+				echo $this->response($this->init_array);
 					
 			} else {
 				throw new Exception("Message error", SERVER_ERROR);

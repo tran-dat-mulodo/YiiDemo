@@ -82,9 +82,9 @@ class AuthorController extends APIController {
 
 	public function actionUpdate( $author_id) {
 		$input_params = $this->getActionParams();
-		$model = Author::model()->findAllByPk( $author_id);
-		if( !empty( $model)) {
-			$model = $model[0];
+		$models = Author::model()->findAllByPk( $author_id);
+		if( !empty( $models)) {
+			$model = $models[0];
 			$input_params['update_at'] = time();
 			$model->setAttributes( $input_params);
 
@@ -97,8 +97,21 @@ class AuthorController extends APIController {
 		$this->sendResponse();
 	}
 
-	public function actionRemove( $id) {
-		echo Yii::app()->request->getPathInfo();
+	public function actionRemove( $author_id) {
+		$models = Author::model()->findAllByPk( $author_id);
+		if( !empty( $models)) {
+			$deleted_count = 0;
+			foreach( $models as $model)
+				if( $model[0]->delete())
+					$deleted_count ++;
+			
+			if( $deleted_count > 0)
+				$this->setHeader(200, 'Remove Success!');
+			else
+				$this->setHeader( 500, $model->getErrors());
+		} else
+			$this->setHeader( 500, 'We dont find this obj on DB.');
+		$this->sendResponse();
 	}
 
 }

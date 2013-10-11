@@ -9,7 +9,6 @@ class UserController extends ApiController
 
 		$array = $user->doLogin();
 		
-		
 		//$array = array('1'=>'abc', '2' => 'osduf');
 		echo CJavaScript::jsonEncode($array);
 		Yii::app()->end();

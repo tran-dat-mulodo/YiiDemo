@@ -24,8 +24,12 @@ class User extends CActiveRecord implements IUser
 	
 	public function doLogin(){
 		$user = $this->getInfoByEmail($this->email);
-		
-		return $user;
+		if($user){
+			
+		}else{
+			Util::createError();
+		}
+		return Util::createError(array('1'=>'error 1'));
 	}
 	
 	public function doLogout(){

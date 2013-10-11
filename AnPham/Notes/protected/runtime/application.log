@@ -1,0 +1,1557 @@
+2013/10/09 05:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/
+HTTP_REFERER=http://localhost:8888/E_ws/
+---
+2013/10/09 05:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/
+HTTP_REFERER=http://localhost:8888/E_ws/
+---
+2013/10/09 09:23:19 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:47) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:40)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (40)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:43:11 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:43:49 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:44:23 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:44:24 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:44:24 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:44:29 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:16 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:31 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:32 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:32 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:56 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:57 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:57 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/09 11:45:57 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:23)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (23)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (13)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 05:55:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 05:56:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 05:56:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:56:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/site/login
+---
+2013/10/10 05:57:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(291): CFilterChain->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/site/login
+---
+2013/10/10 05:57:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail
+---
+2013/10/10 05:58:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:02:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:15:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/delete')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/delete/1
+---
+2013/10/10 06:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/delete')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/delete/1
+---
+2013/10/10 06:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/delete')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/delete/1
+---
+2013/10/10 06:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/delete')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/delete/1
+---
+2013/10/10 06:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/delete')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/delete/1
+---
+2013/10/10 06:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/delete')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/delete
+---
+2013/10/10 06:16:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:17:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('attr')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/attr')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/attr/1
+---
+2013/10/10 06:17:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('attr')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/attr')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/attr/1
+---
+2013/10/10 06:17:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('sieunhan')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/sieunhan')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/sieunhan/1
+---
+2013/10/10 06:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sieunhan".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('sieunhan')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('sieunhan')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/sieunhan')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/sieunhan/1
+---
+2013/10/10 06:17:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('remove')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/remove')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/remove/1
+---
+2013/10/10 06:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "detail".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('detail')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:19:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:20:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:20:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:20:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:20:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:21:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<action>".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:483
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(270): CController->missingAction('<action>')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('<action>')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/<action>')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:32:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:32:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:32:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:32:44 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "loadModel".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): CComponent->__call('loadModel', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): AuthorController->loadModel('1')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:33:15 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "loadModel".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): CComponent->__call('loadModel', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): AuthorController->loadModel('1')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:33:16 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "loadModel".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): CComponent->__call('loadModel', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): AuthorController->loadModel('1')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:33:16 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "loadModel".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): CComponent->__call('loadModel', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): AuthorController->loadModel('1')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:33:16 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "loadModel".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): CComponent->__call('loadModel', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): AuthorController->loadModel('1')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 06:34:05 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "loadModel".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): CComponent->__call('loadModel', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(37): AuthorController->loadModel('1')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 09:40:17 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "formatResult".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(44): CComponent->__call('formatResult', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(44): AuthorController->formatResult(Array, 'author')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 09:40:22 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "formatResult".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(44): CComponent->__call('formatResult', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(44): AuthorController->formatResult(Array, 'author')
+#2 [internal function]: AuthorController->actionDetail('1')
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1
+---
+2013/10/10 09:40:24 [error] [exception.CException] exception 'CException' with message 'AuthorController and its behaviors do not have a method or closure named "formatResult".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(75): CComponent->__call('formatResult', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(75): AuthorController->formatResult(Array, 'note')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('list')
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/list')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/E_ws/Notes/author/list
+---
+2013/10/10 10:00:07 [error] [php] Object of class DOMDocument could not be converted to string (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:49)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (49)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (77)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 10:01:08 [error] [php] Object of class DOMDocument could not be converted to string (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:49)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (49)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (77)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 10:10:58 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:11:04 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:11:19 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:11:39 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:11:47 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:12:16 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:12:17 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:12:17 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:12:18 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:12:18 [error] [php] DOMDocument::createTextNode() expects parameter 1 to be string, object given (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php:129)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(120): convert()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php(59): convert()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php(22): createXML()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(78): AuthorController->response()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (129)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (116)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/Array2XML.php (120)
+2013/10/10 10:58:26 [error] [php] Missing argument 1 for CHttpRequest::getParam(), called in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php on line 67 and defined (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CHttpRequest.php:169)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=abc&email=example@email.com&password=pass
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (67)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 10:58:30 [error] [php] Missing argument 1 for CHttpRequest::getParam(), called in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php on line 67 and defined (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CHttpRequest.php:169)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (67)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:13:20 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getParams".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:266
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(67): CComponent->__call('getParams', Array)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(67): CHttpRequest->getParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('create')
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/create')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+---
+2013/10/10 11:15:11 [error] [php] Missing argument 1 for CHttpRequest::getQuery(), called in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php on line 67 and defined (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CHttpRequest.php:183)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (67)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:26:22 [error] [php] include(password.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/YiiBase.php:427)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/validators/CValidator.php(186): import()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(287): createValidator()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(260): Author->createValidators()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(547): Author->getValidators()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(468): Author->getSafeAttributeNames()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php(152): Author->setAttributes()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(161): Author->__set()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(68): Author->__set()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (68)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:27:46 [error] [php] include(password.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/YiiBase.php:427)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/validators/CValidator.php(186): import()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(287): createValidator()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(260): Author->createValidators()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(547): Author->getValidators()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(468): Author->getSafeAttributeNames()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php(152): Author->setAttributes()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(161): Author->__set()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(68): Author->__set()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (68)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:32:36 [error] [php] include(password.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/YiiBase.php:427)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/validators/CValidator.php(186): import()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(287): createValidator()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(260): Author->createValidators()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(158): Author->getValidators()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(805): Author->validate()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(79): Author->save()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (79)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:33:28 [error] [php] include(string.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/YiiBase.php:427)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/validators/CValidator.php(186): import()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(287): createValidator()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(260): Author->createValidators()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(158): Author->getValidators()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(805): Author->validate()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(79): Author->save()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (79)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:35:00 [error] [php] include(string.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/YiiBase.php:427)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/validators/CValidator.php(186): import()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(287): createValidator()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(260): Author->createValidators()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(158): Author->getValidators()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(805): Author->validate()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(79): Author->save()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (79)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 11:39:15 [error] [exception.CException] exception 'CException' with message 'Property "CTypeValidator.0" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CComponent.php:173
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/validators/CValidator.php(189): CComponent->__set('0', 'email')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(287): CValidator::createValidator('type', Object(Author), 'email', Array)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(260): CModel->createValidators()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CModel.php(158): CModel->getValidators()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(79): CActiveRecord->save()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('create')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/create')
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=mail@email.com&password=pp
+---
+2013/10/10 11:51:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/1...')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/detail/1/18
+---
+2013/10/10 11:54:53 [error] [php] Undefined variable: data (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php:17)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/create?name=name&email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/components/APIController.php (17)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (78)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:00:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 19 PRIMARY KEY must be unique. The SQL statement executed was: INSERT INTO 'tbl_authors' ("id", "name", "email", "password", "update_at", "create_at") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (76)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:00:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 19 PRIMARY KEY must be unique. The SQL statement executed was: INSERT INTO 'tbl_authors' ("id", "name", "email", "password", "update_at", "create_at") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(76): CActiveRecord->save()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionCreate()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/create')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/E_ws/Notes/author/create?id=1&name=name&email=abc@yahoo.com&password=pp
+---
+2013/10/10 12:01:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 19 PRIMARY KEY must be unique. The SQL statement executed was: INSERT INTO 'tbl_authors' ("id", "name", "email", "password", "update_at", "create_at") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (93)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:01:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 19 PRIMARY KEY must be unique. The SQL statement executed was: INSERT INTO 'tbl_authors' ("id", "name", "email", "password", "update_at", "create_at") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php(93): CActiveRecord->save()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(49): AuthorController->actionUpdate()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/update')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/E_ws/Notes/author/update?id=1&name=name&email=abc@yahoo.com&password=pp
+---
+2013/10/10 12:03:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): CController->run('update')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController('author/update')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/Notes/author/update/1?name=name&email=abc@yahoo.com&password=pp
+---
+2013/10/10 12:07:36 [error] [php] Attempt to assign property of non-object (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php:88)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/update/2?name=test%20update&email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (88)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:08:12 [error] [php] Attempt to assign property of non-object (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php:88)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/Notes/author/update/2?name=test%20update&email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (88)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:13:10 [warning] [application] Failed to set unsafe attribute "author_id" of "Author".
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (89)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:36:40 [warning] [application] Failed to set unsafe attribute "author_id" of "Author".
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (89)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/10 12:37:05 [warning] [application] Failed to set unsafe attribute "author_id" of "Author".
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/protected/controllers/AuthorController.php (89)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/Notes/index.php (13)
+2013/10/11 04:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('list')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/list
+---

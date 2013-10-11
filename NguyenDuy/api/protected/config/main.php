@@ -5,12 +5,16 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+
+YiiBase::setPathOfAlias('rest', realpath(__DIR__ . '/../extensions/yii-rest-api/library/rest'));
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	//'preload'=>array('log'),
+	//'preload' => array('restService'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -39,16 +43,32 @@ return array(
 		),
 		*/
 		// uncomment the following to enable URLs in path-format
-		/*
-		'urlManager'=>array(
+		'restService' => array(
+			'class'  => '\rest\Service',
+			'enable' => isset($_SERVER['REQUEST_URI']) && (strpos($_SERVER['REQUEST_URI'], '/api/') !== false), //for example
+		),
+		'urlManager' => array(
+			'urlFormat'      => 'path',
+			'showScriptName' => false,
+            'baseUrl'        => '',
+            'rules'          => array(
+                array('restUser/index',  'pattern' => 'users/list', 'verb' => 'GET', 'parsingOnly' => true),
+                array('restUser/create', 'pattern' => 'users', 'verb' => 'POST', 'parsingOnly' => true),
+                array('restUser/view',   'pattern' => 'users/<id>', 'verb' => 'GET', 'parsingOnly' => true),
+                array('restUser/update', 'pattern' => 'users/<id>', 'verb' => 'PUT', 'parsingOnly' => true),
+                array('restUser/delete', 'pattern' => 'users/<id>', 'verb' => 'DELETE', 'parsingOnly' => true),
+            )
+		
+			/*
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
+			*/
 		),
-		*/
+		
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),

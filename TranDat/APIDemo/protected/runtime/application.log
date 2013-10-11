@@ -415,3 +415,753 @@ Stack trace:
 #24 /Applications/MAMP/htdocs/MyAPITest/APIDemo/protected/yiic.php(7): require_once()
 #25 /Applications/MAMP/htdocs/MyAPITest/APIDemo/protected/yiic(4): require_once()
 REQUEST_URI=/index.php
+2013/10/11 07:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 07:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 07:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 07:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/logi
+---
+2013/10/11 07:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 07:33:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 07:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 07:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 07:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 08:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/posts
+---
+2013/10/11 08:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/posts
+---
+2013/10/11 08:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 08:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 08:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:09:55 [error] [php] include(BaseController.php): failed to open stream: No such file or directory (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(4): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(354): require()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (4)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:11:53 [error] [php] include(BaseController.php): failed to open stream: No such file or directory (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(4): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(354): require()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (4)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:12:02 [error] [php] include(BaseController.php): failed to open stream: No such file or directory (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(4): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(354): require()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (4)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 08:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/
+---
+2013/10/11 08:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/list
+---
+2013/10/11 08:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/list
+---
+2013/10/11 08:22:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:24:19 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/Applications/M...')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CClientScript.php(510): CAssetManager->publish('/Applications/M...')
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CClientScript.php(547): CClientScript->getCoreScriptUrl()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CClientScript.php(348): CClientScript->getPackageBaseUrl('jquery')
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(351): CClientScript->render('<!DOCTYPE html ...')
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(788): CController->processOutput('<!DOCTYPE html ...')
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/SiteController.php(72): CController->render('contact', Array)
+#9 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#10 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): CController->run('contact')
+#14 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#15 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/site/contact
+HTTP_REFERER=http://localhost:8888/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/site/page?view=about
+---
+2013/10/11 08:25:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(270): CController->missingAction('test')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('login/test')
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/login/test
+---
+2013/10/11 08:28:50 [error] [php] Declaration of LoginController::actionList() should be compatible with BaseController::actionList() (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/login/post
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (4)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:28:57 [error] [php] Declaration of LoginController::actionList() should be compatible with BaseController::actionList() (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:4)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/login/post
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (4)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:32:44 [error] [php] include(Login.php): failed to open stream: No such file or directory (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(10): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/login/login
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (10)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:35:27 [error] [php] include(Login.php): failed to open stream: No such file or directory (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(10): spl_autoload_call()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (10)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:36:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiitest.tbl_login' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_Login`.
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (10)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:36:37 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{Login}}" for active record class "Login" cannot be found in the database.' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Login))
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(10): CActiveRecord->__construct()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#9 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+---
+2013/10/11 08:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('api')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api
+---
+2013/10/11 08:45:15 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:22)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (22)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:45:55 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:22)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (22)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:45:58 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:22)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (22)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:46:38 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:22)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?usera=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (22)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:49:26 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:22)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?usera=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (22)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 08:55:25 [error] [exception.CException] exception 'CException' with message 'Property "User.attributeLabels" is not defined.' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('attributeLabels')
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(23): CActiveRecord->__get('attributeLabels')
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22dat%22
+---
+2013/10/11 08:55:44 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:24)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (24)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:06:07 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:24)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (24)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:06:33 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:06:34 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:06:35 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:06:36 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:07:00 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:07:06 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:07:09 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:07:09 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:07:19 [error] [php] Undefined index: LoginForm (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:24)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (24)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:08:23 [error] [php] Undefined index: User (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:24)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (24)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:16:30 [error] [php] Undefined index: User (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22&
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:16:57 [error] [php] Undefined index: User (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22&
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:18:10 [error] [php] Undefined index: User (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22&
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:18:36 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22&
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:18:38 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22&
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:18:41 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22&
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:19:54 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:20:40 [error] [php] Undefined index: user (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:25)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?username=%22dat%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (25)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:20:56 [error] [php] Undefined index: pass (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22dat%22$pass=%22aaa%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (27)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:21:22 [error] [php] Undefined index: pass (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22dat%22$pass=%22aaa%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (27)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:21:27 [error] [php] Undefined index: pass (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:27)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22dat%22$pass=%22aaa%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (27)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 09:36:23 [error] [php] Undefined variable: uid (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/models/User.php:130)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=%22demo%22&pass=%22admin%22
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/models/User.php (130)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (30)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 12:27:01 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php:32) (/Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CHttpRequest.php:803)
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(33): LoginController->redirect()
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): LoginController->runAction()
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): LoginController->run()
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CWebApplication->run()
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=demo&pass=admin
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php (33)
+in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php (13)
+2013/10/11 12:50:45 [error] [exception.CException] exception 'CException' with message 'LoginController and its behaviors do not have a method or closure named "_getObjectEncoded".' in /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(33): CComponent->__call('_getObjectEncod...', Array)
+#1 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/protected/controllers/LoginController.php(33): LoginController->_getObjectEncoded('xml', Array)
+#2 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#3 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#8 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/MYGitHubYiiDEMO/YiiDemo/TranDat/APIDemo/index.php/api/login?user=demo&pass=admin
+---

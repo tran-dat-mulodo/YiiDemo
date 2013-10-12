@@ -7,6 +7,7 @@ class LoginController extends BaseController
 	 */
 	public function actionLogin()
 	{
+		var_dump(Yii::getVersion());
 		$model=new User();
 	
 		// if it is ajax validation request

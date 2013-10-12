@@ -6,7 +6,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
-	'defaultController' => 'Login',
+	//'defaultController' => 'Login',
 	
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
@@ -33,9 +33,10 @@ return array(
 	),
 
 	// application components
+	//Redish Cache
 	'components'=>array(
 		//Redish Cache
-		'cache'=>array(
+		/*'cache'=>array(
 					'class'=>'ext.redis.CRedisCache',
 					//if you dont set up the servers options it will use the default one
 					//"host=>'127.0.0.1',port=>6379"
@@ -43,7 +44,7 @@ return array(
 					array(
 							'host'=>'127.0.0.1',
  		 'port'=>6379,
-		))),
+		))),*/
 			
 		'user'=>array(
 			// enable cookie-based authentication

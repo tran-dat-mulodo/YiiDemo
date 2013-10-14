@@ -2,6 +2,10 @@
 
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
+//
+
+//Yii::import(dirname(__FILE__).'/constant.php');
+include_once (dirname(__FILE__).'/constant.php');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
@@ -31,7 +35,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		'region' => array('class' => 'RegionSingleton'),
-		'teo'=> array('class'=> 'Teo'),
+		'httpval'=> array('class'=> 'HttpValComp'),
 // 		'db'=>array(
 // 			'connectionString' => 'sqlite:protected/data/blog.db',
 // 			'tablePrefix' => 'tbl_',
@@ -51,18 +55,32 @@ return array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
         ),
+        'cache' => array(
+        	'class' => 'CRedisCache',
+        	'hostname' => 'localhost',
+        	'port' => 6379,
+        	'database' => 0
+        ),
+        'fixture' => array(
+        	'class' => 'system.test.CDbFixtureManager',
+        ),
         'urlManager'=>array(
         	'urlFormat'=>'path',
+        	'showScriptName' => false,
         	'rules'=>array(
-                        'post/<id:\d+>/<title:.*?>'=>'post/view',
-                        'posts/<tag:.*?>'=>'post/index',
+                        
                         // REST patterns
-                        array('api/list', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),
-                        array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
-                        array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
-                        array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
-                        array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'), // Create
-                        '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+//                         array('post/list', 'pattern'=>'post/<model:\w+>', 'verb'=>'GET'),
+//                         array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
+//                         array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
+//                         array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+//                         array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'), // Create
+
+						array('<controller>/view', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'GET'),
+						array('<controller>/list', 'pattern' => '<controller:\w+>', 'verb' => 'GET'),
+						array('<controller>/update', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'PUT'),
+        			
+                        
         	),
         ),
 		'log'=>array(

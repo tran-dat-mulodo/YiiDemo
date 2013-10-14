@@ -117,4 +117,18 @@ class Post extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	
+	public function getAllItem()
+	{
+		return Yii::app()->db->createCommand('SELECT * FROM tbl_post')->queryAll();
+	}
+	
+	public function getItembyId($id)
+	{
+		$sql = "select * from tbl_post where id = :id";
+		$command = Yii::app()->db->createCommand($sql);
+		$command->bindParam(":id", $id);
+		$data = $command->query()->readAll();
+		return $data;
+	}
 }

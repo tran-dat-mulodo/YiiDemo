@@ -61,14 +61,15 @@ return array(
         	'port' => 6379,
         	'database' => 0
         ),
-        'fixture' => array(
-        	'class' => 'system.test.CDbFixtureManager',
-        ),
+                
         'urlManager'=>array(
         	'urlFormat'=>'path',
         	'showScriptName' => false,
         	'rules'=>array(
-                        
+        	array('<controller>/view', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'GET'),        	
+        	array('<controller>/list', 'pattern' => '<controller:\w+>', 'verb' => 'GET'),
+        	array('<controller>/update', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'PUT'),
+        	array('<controller>/delete', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'DELETE'),
                         // REST patterns
 //                         array('post/list', 'pattern'=>'post/<model:\w+>', 'verb'=>'GET'),
 //                         array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
@@ -76,9 +77,7 @@ return array(
 //                         array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
 //                         array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'), // Create
 
-						array('<controller>/view', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'GET'),
-						array('<controller>/list', 'pattern' => '<controller:\w+>', 'verb' => 'GET'),
-						array('<controller>/update', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'PUT'),
+						
         			
                         
         	),

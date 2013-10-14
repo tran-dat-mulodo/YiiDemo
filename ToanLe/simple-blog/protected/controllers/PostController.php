@@ -1,4 +1,9 @@
 <?php
+/**
+ *
+ * @author letoan
+ *
+ */
 
 Yii::import('application.controllers.ApiController');
 
@@ -11,22 +16,25 @@ class PostController extends ApiController
 		$cache = Yii::app()->cache;
 				
 		$cached_data = $cache->get('cached_data');
+		
 		if($cached_data == false)
 		{
 			$data = Post::model()->getAllItem();
-
+			$array_data = array('hit_count' => count($data), 'items' => $data);
+	 
 			//cache data in 1 minute
-			Yii::app()->cache->set('cache_data', $data, TIME_CACHED_DATA );
+			Yii::app()->cache->set('cache_data', $array_data, TIME_CACHED_DATA );
 		}
 		else
 		{
-			$data = $cached_data;
+			$array_data = $cached_data;
 		}
 			
-		echo $this->response(array_merge($this->init_array, $data));
+		echo $this->response(array_merge($this->init_array, $array_data));
 
 	}
-
+	
+	
 	public function actionView()
 	{
 		

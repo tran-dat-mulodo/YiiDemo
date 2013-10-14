@@ -6,7 +6,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
-	//'defaultController' => 'Site',
+	'defaultController' => 'Login',
 	
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
@@ -33,7 +33,19 @@ return array(
 	),
 
 	// application components
+	//Redish Cache
 	'components'=>array(
+		//Redish Cache
+		/*'cache'=>array(
+					'class'=>'ext.redis.CRedisCache',
+					//if you dont set up the servers options it will use the default one
+					//"host=>'127.0.0.1',port=>6379"
+					'servers'=>array(
+					array(
+							'host'=>'127.0.0.1',
+ 		 'port'=>6379,
+		))),*/
+			
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -49,6 +61,26 @@ return array(
 			),
 		),
 		*/
+		'urlManager'=>array(
+				'urlFormat'=>'path',
+				'rules'=>array(
+						'post/<id:\d+>/<title:.*?>'=>'post/view',
+						'posts/<tag:.*?>'=>'post/index',
+						// REST patterns
+						array('login/login', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),
+						//array('login/list', 'pattern'=>'login/<model:\w+>', 'verb'=>'GET'),
+						array('login/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
+						array('login/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),
+						array('login/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+						array('login/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'),
+						
+						// Other controllers
+						'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				),
+		),
+		
+		
+		
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

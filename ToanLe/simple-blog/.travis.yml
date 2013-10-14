@@ -1,0 +1,16 @@
+language: php
+php:
+  - 5.3
+before_script:
+  # everything after this point is needed to just use phpunit
+  - pear channel-discover pear.phpunit.de
+  - pear install phpunit/PHP_Invoker
+  - pear install phpunit/DbUnit
+  - pear install phpunit/PHPUnit_Selenium
+  - pear install phpunit/PHPUnit_Story
+script: 
+  - phpunit -c protected/tests/ protected/tests/unit/
+  - phpunit -c protected/tests/ protected/tests/functional/
+  
+services:
+  - redis-server

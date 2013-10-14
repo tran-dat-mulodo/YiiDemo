@@ -11,8 +11,8 @@ class PostTest extends CDbTestCase
 		'comments'=>'Comment',
 	);
 
-	public function testSave()
+	public function testActionView()
 	{
-		// write code here to test post saving method
+		
 	}
 }

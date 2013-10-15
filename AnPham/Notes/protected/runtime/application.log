@@ -1555,3 +1555,563 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/list
 ---
+2013/10/11 10:16:53 [error] [php] Undefined index: email (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php:6)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthController->runAction()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthController->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php (6)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (13)
+2013/10/11 10:17:12 [error] [php] include(User.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/YiiBase.php:427)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(8): spl_autoload_call()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(10): ClientIdentity->authenticate()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthController->runAction()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthController->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php (8)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php (10)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (13)
+2013/10/11 10:18:55 [error] [php] require(../models/Login.php): failed to open stream: No such file or directory (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(9): spl_autoload_call()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthController->runAction()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthController->run()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php (2)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php (2)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php (9)
+2013/10/11 10:32:19 [error] [php] Use of undefined constant self - assumed 'self' (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php:11)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=ppp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php (11)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php (10)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (13)
+2013/10/11 11:04:17 [error] [exception.CException] exception 'CException' with message 'Property "Author.title" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:130
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('title')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(16): CActiveRecord->__get('title')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(10): ClientIdentity->authenticate()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 11:25:53 [error] [php] Undefined variable: response (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthController->runAction()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthController->run()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=ppp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (13)
+2013/10/11 11:38:06 [error] [exception.CException] exception 'CException' with message 'Property "ClientIdentity.email" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:130
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(19): CComponent->__get('email')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 11:39:05 [error] [exception.CException] exception 'CException' with message 'Property "ClientIdentity.email" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:130
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(19): CComponent->__get('email')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:02:44 [error] [php] Creating default object from empty value (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php:21)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthController->runAction()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthController->run()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php (21)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php (11)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (13)
+2013/10/11 12:03:54 [error] [exception.CException] exception 'CException' with message 'Property "Log.token" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:173
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(161): CComponent->__set('token', '7f63a73e68aed17...')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(23): CActiveRecord->__set('token', '7f63a73e68aed17...')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:04:45 [error] [exception.CException] exception 'CException' with message 'Property "Log.hach_code" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:173
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(161): CComponent->__set('hach_code', '7f63a73e68aed17...')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(23): CActiveRecord->__set('hach_code', '7f63a73e68aed17...')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:05:29 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php:828
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php(621): CDbCommandBuilder->createInCondition(Object(CDbTableSchema), NULL, Array, NULL)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1746): CDbCommandBuilder->createPkCriteria(Object(CDbTableSchema), NULL, '', Array)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1124): CActiveRecord->updateByPk(NULL, Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(27): CActiveRecord->save()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:05:32 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php:828
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php(621): CDbCommandBuilder->createInCondition(Object(CDbTableSchema), NULL, Array, NULL)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1746): CDbCommandBuilder->createPkCriteria(Object(CDbTableSchema), NULL, '', Array)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1124): CActiveRecord->updateByPk(NULL, Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(27): CActiveRecord->save()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:05:33 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php:828
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php(621): CDbCommandBuilder->createInCondition(Object(CDbTableSchema), NULL, Array, NULL)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1746): CDbCommandBuilder->createPkCriteria(Object(CDbTableSchema), NULL, '', Array)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1124): CActiveRecord->updateByPk(NULL, Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(27): CActiveRecord->save()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:07:25 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php:828
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/schema/CDbCommandBuilder.php(621): CDbCommandBuilder->createInCondition(Object(CDbTableSchema), NULL, Array, NULL)
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1746): CDbCommandBuilder->createPkCriteria(Object(CDbTableSchema), NULL, '', Array)
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(1124): CActiveRecord->updateByPk(NULL, Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/ClientIdentity.php(28): CActiveRecord->save()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthController.php(11): ClientIdentity->authenticate()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthController->actionLogin()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('login')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('auth/login')
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+---
+2013/10/11 12:14:16 [error] [system.db.CDbCommand] Error in preparing SQL: ALTER TABLE 'tbl_logging_log' ADD "id" int pk
+2013/10/11 12:14:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 duplicate column name: id. The SQL statement executed was: ALTER TABLE 'tbl_logging_log' ADD "id" int pk.
+2013/10/14 11:43:09 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(30): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (30)
+2013/10/14 11:43:32 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(30): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (30)
+2013/10/14 11:43:52 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(32): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (32)
+2013/10/14 11:44:18 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(32): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (32)
+2013/10/14 11:44:37 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(32): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (32)
+2013/10/14 11:44:40 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(32): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (32)
+2013/10/14 11:45:10 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(32): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (32)
+2013/10/14 11:45:20 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(40): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (40)
+2013/10/14 11:45:31 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:16) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(40): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (40)
+2013/10/14 12:04:55 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(31): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (31)
+2013/10/14 12:11:30 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(31): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (31)
+2013/10/14 12:11:52 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(31): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (31)
+2013/10/14 12:12:21 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(31): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (31)
+2013/10/14 12:13:32 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:18) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(35): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (35)
+2013/10/14 12:14:00 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:18) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(35): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (35)
+2013/10/14 12:14:22 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(31): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (31)
+2013/10/14 12:14:39 [error] [php] Cannot modify header information - headers already sent by (output started at /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php:14) (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php:20)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(49): AuthorController->actionList()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): AuthorController->runAction()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): AuthorController->runActionWithFilters()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): AuthorController->run()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(31): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/components/APIController.php (20)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php (56)
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (31)
+2013/10/15 06:08:43 [error] [php] Undefined offset: 0 (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CUrlManager.php:656)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CModule.php(387): CUrlManager->init()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(522): CWebApplication->getComponent()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(140): CWebApplication->getUrlManager()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (12)
+2013/10/15 06:08:56 [error] [php] Undefined offset: 0 (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CUrlManager.php:656)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CModule.php(387): CUrlManager->init()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(522): CWebApplication->getComponent()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(140): CWebApplication->getUrlManager()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/auth/login?email=abc@yahoo.com&password=pp
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (12)
+2013/10/15 06:09:05 [error] [php] Undefined offset: 0 (/users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CUrlManager.php:656)
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CModule.php(387): CUrlManager->init()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(522): CWebApplication->getComponent()
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(140): CWebApplication->getUrlManager()
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CWebApplication->run()
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php (12)
+2013/10/15 06:26:28 [error] [exception.CException] exception 'CException' with message 'Property "Author.0" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:130
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('0')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CModel.php(596): CActiveRecord->__get('0')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php(105): CModel->offsetGet(0)
+#3 [internal function]: AuthorController->actionRemove('1')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('remove')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('author/remove')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CApplication->run()
+#13 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/remove/1
+---
+2013/10/15 06:27:31 [error] [exception.CException] exception 'CException' with message 'Property "Author.0" is not defined.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CComponent.php:130
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('0')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CModel.php(596): CActiveRecord->__get('0')
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/protected/controllers/AuthorController.php(105): CModel->offsetGet(0)
+#3 [internal function]: AuthorController->actionRemove('25')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(AuthorController), Array)
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(AuthorController), Object(ReflectionMethod), Array)
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('remove')
+#10 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('author/remove')
+#11 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CApplication->run()
+#13 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/remove/25
+---
+2013/10/15 10:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/create?email=abc@email.com&name=hello-er&password=asdf
+---
+2013/10/15 10:49:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php:336
+Stack trace:
+#0 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(282): CController->run('detail')
+#4 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/web/CWebApplication.php(141): CWebApplication->runController('author/detail/<...')
+#5 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /users/phamhoaian/documents/work Plance/source code/eclipse_ws/YiiDemo/AnPham/Notes/index.php(12): CApplication->run()
+#7 {main}
+REQUEST_URI=/E_ws/YiiDemo/AnPham/Notes/author/list
+---

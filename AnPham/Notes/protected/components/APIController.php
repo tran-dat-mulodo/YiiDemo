@@ -11,7 +11,7 @@ abstract class APIController extends CController {
 	protected function sendResponse( $inputs = null, $node_name = 'value') {
 		$response = null;
 		$data = array(
-				'hearder' => $this->_responseHeader,
+				'header' => $this->_responseHeader,
 		);
 		if( !empty($inputs))
 			$data["{$node_name}s"] = array( $node_name=>$inputs);

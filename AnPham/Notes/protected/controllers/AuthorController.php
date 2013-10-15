@@ -34,14 +34,14 @@ class AuthorController extends APIController {
 	 */
 	public function actionCreate() {
 		$model = new Author();
-		$input_params = $this->getActionParams();
+		$input_params = $_GET;
 		$input_params['create_at'] = $input_params['update_at'] = time();
 
 		foreach ( $input_params as $key => $param) {
 			if( $model->hasAttribute( $key))
 				$model->$key = $param;
 		}
-
+		
 		if( $model->save())
 			$this->setHeader(200, 'Create Success!');
 		else

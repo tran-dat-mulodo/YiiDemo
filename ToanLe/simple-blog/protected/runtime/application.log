@@ -2706,3 +2706,30 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/YiiDemo/ToanLe/simple-blog/index_test.php/post
 ---
+2013/10/15 08:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts/view".' in /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('posts/view')
+#1 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiDemo/ToanLe/simple-blog/posts/1
+---
+2013/10/15 08:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts/list".' in /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('posts/list')
+#1 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiDemo/ToanLe/simple-blog/posts
+---
+2013/10/15 09:23:19 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/controllers/PostsController.php:43) (/Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/components/ApiBase.php:281)
+Stack trace:
+#0 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/actions/CInlineAction.php(49): PostsController->actionView()
+#1 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CController.php(286): PostsController->runAction()
+#3 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CController.php(265): PostsController->runActionWithFilters()
+#4 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php(282): PostsController->run()
+#5 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/MAMP/htdocs/YiiDemo/ToanLe/simple-blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/YiiDemo/ToanLe/simple-blog/posts/23423

@@ -7,7 +7,7 @@
 
 Yii::import('application.controllers.ApiController');
 
-class PostController extends ApiController
+class PostsController extends ApiController
 {
 	
 	public function actionList()
@@ -36,14 +36,20 @@ class PostController extends ApiController
 	
 	
 	public function actionView()
-	{
-		
-		$cache = Yii::app()->cache;
-		if(isset($_GET['id']))
+	{			
+		if(isset($_GET['id']) && is_numeric($_GET['id']))
 		{
 			$data = Post::model()->getItembyId($_GET['id']);
-
-			echo $this->response(array_merge($this->init_array, $data));
+			
+			if (count($data) >  0)			
+			{
+				echo $this->response(array_merge($this->init_array, $array_data));
+			}
+			else
+			{
+				$error = array('status' => SERVER_ERROR, 'message' => 'Your post is not existed');
+				echo $this->response(array_merge($error, $data));
+			}
 		}
 
 	}

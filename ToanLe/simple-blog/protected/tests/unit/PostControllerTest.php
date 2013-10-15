@@ -10,7 +10,7 @@ require_once DIRNAME(__FILE__).'/UtilityTest.php';
 require_once DIRNAME(__FILE__).'/ConstantTest.php';
 
 
-class PostControllerTest extends CDbTestCase
+class PostsControllerTest extends CDbTestCase
 {
 	
 	

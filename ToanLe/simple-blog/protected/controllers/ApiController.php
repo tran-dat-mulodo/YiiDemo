@@ -14,8 +14,9 @@ class ApiController extends ApiBase
     /**
      * Key which has to be in HTTP USERNAME and PASSWORD headers 
      */
-    Const APPLICATION_ID = 'ASCCPE';
+    //Const APPLICATION_ID = 'ASCCPE';
     protected  $init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
+    
 
     private $format = 'json';
     /**

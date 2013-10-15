@@ -59,6 +59,7 @@ class ApiController extends CController {
 	 * @return void
 	 */
 	private function set_headers() {
+              
 		header("HTTP/1.1 " . $this -> status_code . " " . $this -> status_message);
 		header('Content-Type: ' . $this -> supported_formats[$this -> format] . '; charset=UTF-8');
 	}
@@ -281,6 +282,7 @@ class ApiController extends CController {
 				$key = substr($rootNodeName,0, strlen($rootNodeName)-1);
                                
 			}
+                        
 
 			// if there is another array found recrusively call this function
 			if (is_array($value)) {

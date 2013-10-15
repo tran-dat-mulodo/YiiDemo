@@ -115,4 +115,3 @@ class AuthorController extends APIController {
 	}
 
 }
-

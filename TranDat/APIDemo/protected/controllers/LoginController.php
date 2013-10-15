@@ -7,6 +7,7 @@ class LoginController extends BaseController
 	 */
 	public function actionLogin()
 	{
+		//var_dump(Yii::getVersion());
 		$model=new User();
 	
 		// if it is ajax validation request
@@ -19,11 +20,24 @@ class LoginController extends BaseController
 		// collect user input data
 		//if(isset($_POST['user']))
 		//{
-		
-		
 			//var_dump($_GET);
-			$model->username=$_GET['user'];
-			$model->password=$_GET['pass'];
+			try 
+			{
+				if(isset($_GET["user"]) && isset($_GET["pass"]))
+				{
+					$model->username=$_GET['user'];
+					$model->password=$_GET['pass'];
+				}
+				else
+				{
+					$this->_sendResponse(200,$this->_getObjectEncoded('xml',array('error'=>'"user" and "id" param require ')), 'application/xml');
+					die;
+				}
+			} catch (ErrorException $e) {
+				$this->_sendResponse(200,$this->_getObjectEncoded('xml',array('error'=>'Unknow Error')), 'application/xml');
+				die;
+			}
+			
 			//echo "after <br/>";
 			//var_dump($model->attributes);
 			// validate user input and redirect to the previous page if valid
@@ -35,7 +49,7 @@ class LoginController extends BaseController
 			}
 			else
 			{
-				echo "fail";
+				$this->_sendResponse(200,$this->_getObjectEncoded('xml',array('error'=>'"user" or "pass" incorrect')), 'application/xml');
 			}
 		//}
 		// display the login form

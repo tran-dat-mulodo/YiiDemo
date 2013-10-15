@@ -2,4 +2,5 @@
 <buildpath>
 	<buildpathentry kind="src" path="framework"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry excluding="framework/" kind="src" path=""/>
 </buildpath>

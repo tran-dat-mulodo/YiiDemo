@@ -127,11 +127,19 @@ class User extends CActiveRecord
 	*/
 	public function login()
 	{
-		$model = $this->find('username=:user', array(':user' => 'demo'));
-		if(empty($model))
+		$username = $this->find('username=:user', array(':user' => $this->username));
+
+		if(empty($username))
 		{
 			return false;
 		}
+		else 
+		{
+			$password = $username->find('password=:pass', array(':pass' => $this->password));
+			if(empty($password))
+				return false;
+		}
+		
 		return true;
 		
 		//$this->findbyUsername();

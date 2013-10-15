@@ -144,5 +144,11 @@ class ApiController extends ApiBase
             return;
         }
     }  
+    
+    public function actionHandleError()
+    {
+    	$error_array = array(error=> array('status' => RESOURCE_NOT_FOUND, 'message' => 'The resource is not existed'));
+    	echo $this->response($error_array);
+    }
      
 }

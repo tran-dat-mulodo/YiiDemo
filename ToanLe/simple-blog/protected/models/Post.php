@@ -35,10 +35,10 @@ class Post extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, content, status, author_id', 'required'),
+			array('title, tags, content, status, author_id', 'required', 'on' => 'create'),			
 			array('status, create_time, update_time, author_id', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>128),
-			array('tags', 'safe'),
+			array('title', 'length', 'min'=> 6, 'max'=>100),
+			array('content', 'length', 'min'=> 10, 'max'=>1000),			
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, title, content, tags, status, create_time, update_time, author_id', 'safe', 'on'=>'search'),
@@ -53,8 +53,7 @@ class Post extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'comments' => array(self::HAS_MANY, 'Comment', 'post_id'),
-			'author' => array(self::BELONGS_TO, 'User', 'author_id'),
+			
 		);
 	}
 

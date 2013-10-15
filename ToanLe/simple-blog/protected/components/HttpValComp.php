@@ -177,4 +177,17 @@ class HttpValComp extends CApplicationComponent
 	
 		return $ret;
 	}
+	
+	// Encode as JSON
+	public function to_json()
+	{
+		return json_encode($this->_data);
+	}
+	 
+	// Encode as JSON
+	private function _from_json($string)
+	{
+		return json_decode(trim($string));
+	}
+	
 }

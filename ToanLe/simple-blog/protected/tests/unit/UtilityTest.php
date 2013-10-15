@@ -22,7 +22,7 @@ class UtilityTest
 						
 		$result = curl_exec($curl);		
 		$http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);		
-		//var_dump(curl_getinfo($curl));
+		
 		curl_close($curl);
 		return array('code' => $http_code, 'data' =>  $result);		
 	}
@@ -58,7 +58,8 @@ class UtilityTest
 	{
 		$curl = curl_init();
 		$query_data = http_build_query($data);
-		curl_setopt($curl, CURLOPT_URL);
+		curl_setopt($curl, CURLOPT_URL, $url);
+		
 		curl_setopt_array($curl, array(
 		CURLOPT_RETURNTRANSFER => 1,
 		CURLOPT_URL => $url,
@@ -67,12 +68,12 @@ class UtilityTest
 		CURLOPT_TIMEOUT => 5,
 		CURLOPT_CONNECTTIMEOUT => 10,
 		));
-	
+
 		$result = curl_exec($curl);
-		$http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);		
+		$http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 		//var_dump(curl_getinfo($curl));
 		curl_close($curl);
-		return array('code' => $http_code, 'data' =>  $result);
+		return array('code' => $http_code, 'data' =>  $result);		
 	}
 	
 	
@@ -81,6 +82,7 @@ class UtilityTest
 		$curl = curl_init();
 		$query_data = http_build_query($data);
 		//curl_setopt($curl, CURLOPT_URL, $url. $query_data);
+		
 		curl_setopt_array($curl, array(
 		CURLOPT_RETURNTRANSFER => 1,
 		CURLOPT_URL => $url,
@@ -108,7 +110,7 @@ class UtilityTest
 		$result = $this->{$method}($url, $data);
 		
 		
-		if($result['code'] === SUCCESS_HTTP)
+		if($result['code'] === STATUS_SUCCESS)
 		{
 			return $this->loadResponse($result['data']);
 		}

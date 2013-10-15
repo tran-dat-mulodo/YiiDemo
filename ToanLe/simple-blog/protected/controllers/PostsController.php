@@ -43,7 +43,7 @@ class PostsController extends ApiController
 			
 			if (count($data) >  0)			
 			{
-				echo $this->response(array_merge($this->init_array, $array_data));
+				echo $this->response(array_merge($this->init_array, $data));
 			}
 			else
 			{
@@ -57,9 +57,8 @@ class PostsController extends ApiController
 	public function actionUpdate()
 	{
 		// Get PUT parameters
-
+		
 		try {
-
 			parse_str(file_get_contents('php://input'), $put_vars);
 			$model = Post::model()->findByPk($_GET['id']);
 			if(!isset($model))
@@ -90,8 +89,7 @@ class PostsController extends ApiController
 		}
 		catch(Exception $e)
 		{
-			$this->_set_error($e->getMessage(),$e->getCode());
-			echo $this->respone($this->_get_error());
+			echo $this->response(array('error' => array('status' => $e->getCode(), 'message' => $e->getMessage())));
 		}
 
 	}
@@ -122,32 +120,35 @@ class PostsController extends ApiController
 	}
 
 	public function actionCreate()
-	{		
-		$model = new Post;
-
+	{			
+		$model_post = new Post('create');
+				
 		try {
+			
 			// Try to assign POST values to attributes
 			foreach($_POST as $var=>$value) {
 				// Does the model have this attribute?
-				if($model->hasAttribute($var)) {
-					$model->$var = $value;
+				if($model_post->hasAttribute($var)) {
+					$model_post->$var = $value;
+					
 				} else {
-					throw new Exception("Message error", SERVER_ERROR);
+					throw new Exception('Message error', SERVER_ERROR);					
 				}
 			}
-			// Try to save the model
-			if($model->save()) {
-				// Saving was OK
+					
+			if($model_post->save()) {
+				// Saving was OK				 
 				echo $this->response($this->init_array);
 					
 			} else {
+				 
 				throw new Exception("Message error", SERVER_ERROR);
 			}
 		}
 		catch(Exception $e)
-		{
-			$this->_set_error($e->getMessage(),$e->getCode());
-			echo $this->respone($this->_get_error());
+		{						
+			echo $this->response(array('error' => array('status' => $e->getCode(), 'message' => $e->getMessage())));
+			
 		}
 	}
 }

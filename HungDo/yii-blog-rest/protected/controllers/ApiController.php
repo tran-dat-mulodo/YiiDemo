@@ -1,17 +1,5 @@
 <?php
-/**
- * ApiController class file
- * @author Joachim Werner <joachim.werner@diggin-data.de>  
- */
-/**
- * ApiController 
- * 
- * @uses Controller
- * @author Joachim Werner <joachim.werner@diggin-data.de>
- * @author 
- * @see http://www.gen-x-design.com/archives/making-restful-requests-in-php/
- * @license (tbd)
- */
+
 class ApiController extends Controller
 {
     // {{{ *** Members ***

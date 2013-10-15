@@ -83,11 +83,11 @@ return array(
                         'post/<id:\d+>/testfragment'=>'post/fragmentcache',
                         'posts/<tag:.*?>.html'=>'post/index',
                         // REST patterns
-                        array('api1/list', 'pattern'=>'api1/<model:\w+>.<exts:>', 'verb'=>'GET'),
-                        array('api1/view', 'pattern'=>'api1/<model:\w+>/<id:\d+>.<exts:>', 'verb'=>'GET'),
-                        array('api1/update', 'pattern'=>'api1/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
-                        array('api1/delete', 'pattern'=>'api1/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
-                        array('api1/create', 'pattern'=>'api1/<model:\w+>', 'verb'=>'POST'), // Create
+                        array('api/list', 'pattern'=>'api/<model:\w+>.<exts:>', 'verb'=>'GET'),
+                        array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>.<exts:>', 'verb'=>'GET'),
+                        array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
+                        array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+                        array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'), // Create
                         //Test API
                         array('postid/view', 'pattern'=>'postid.<exts:>', 'verb'=>'GET'),
                         array('postid/update', 'pattern'=>'postid.<exts:>', 'verb'=>'PUT'),

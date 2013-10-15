@@ -7,19 +7,24 @@ return CMap::mergeArray(
 			'fixture'=>array(
 				'class'=>'system.test.CDbFixtureManager',
 			),
-			'db'=>array(
-				'connectionString'=>'sqlite:'.dirname(__FILE__).'/../data/blog-test.db',
+			'CURL' =>array(
+					'class' => 'ext.curl.Curl',
 			),
+// 			'db'=>array(
+// 				'connectionString'=>'sqlite:'.dirname(__FILE__).'/../data/blog-test.db',
+// 			),
 			// uncomment the following to use a MySQL database
-			/*
 			'db'=>array(
-				'connectionString' => 'mysql:host=localhost;dbname=blog-test',
-				'emulatePrepare' => true,
-				'username' => 'root',
-				'password' => '',
-				'charset' => 'utf8',
-			),
-			*/
+			'connectionString' => 'mysql:host=localhost;dbname=thithi_api',
+			'emulatePrepare' => true,
+			'enableProfiling'=>true,
+        	'enableParamLogging'=>true,
+        	
+			'username' => 'root',
+			'password' => 'root',
+			'charset' => 'utf8',
+			'tablePrefix' => 'tt_',
+		),
 		),
 	)
 );

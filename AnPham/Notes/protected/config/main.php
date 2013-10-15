@@ -37,6 +37,7 @@ return array(
 			'urlFormat'=>'path',
 			'showScriptName' => false,
 			'rules'=>array(
+				'<controller:\w+>/<action:create>' => '<controller>/<action>',
 				'<controller:\w+>/<action:detail>/<author_id:\d+>' => '<controller>/<action>',
 				'<controller:\w+>/<action:update>/<author_id:\d+>' => '<controller>/<action>',
 				'<controller:\w+>/<action:remove>/<author_id:\d+>' => '<controller>/<action>',

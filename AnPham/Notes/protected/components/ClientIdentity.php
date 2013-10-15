@@ -23,8 +23,6 @@ class ClientIdentity extends CUserIdentity {
 			$log->hash_code = $this->getState('token');
 			$log->create_at = $this->getState( 'time');
 			
-// 			var_dump( $log);die;
-			
 			if( !$log->save()) {
 				$this->errorCode = self::ERROR_UNKNOWN_IDENTITY;
 				$this->errorMessage = 'Error when connect Logging Log table.';

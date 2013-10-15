@@ -42,7 +42,7 @@ class YiiBase
 	{
 		return '1.1.14';
 	}
-	public static function createWebApplication($config=null)
+    public static function createWebApplication($config=null)
 	{
 		return self::createApplication('CWebApplication',$config);
 	}

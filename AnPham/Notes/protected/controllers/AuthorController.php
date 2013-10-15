@@ -4,38 +4,6 @@
 
 class AuthorController extends APIController {
 
-	// 	public function filters() {
-	// 		return array(
-	// 				'accessControl',
-	// 		);
-	// 	}
-
-	// 	/**
-	// 	 * Specifies the access control rules.
-	// 	 * This method is used by the 'accessControl' filter.
-	// 	 * @return array access control rules
-	// 	 */
-	// 	public function accessRules()
-	// 	{
-	// 		return array(
-	// 				array('allow',  // allow all users to perform 'index' and 'view' actions
-	// 						'actions'=>array('detail','list'),
-	// 						'users'=>array('*'),
-	// 				),
-	// 				array('allow', // allow authenticated user to perform 'create' and 'update' actions
-	// 						'actions'=>array('create','update'),
-	// 						'users'=>array('@'),
-	// 				),
-	// 				array('allow', // allow admin user to perform 'admin' and 'delete' actions
-	// 						'actions'=>array('delete'),
-	// 						'users'=>array('admin'),
-	// 				),
-	// 				array('deny',  // deny all users
-	// 						'users'=>array('*'),
-	// 				),
-	// 		);
-	// 	}
-
 	public function actionDetail( $author_id) {
 		$data = null;
 		$records = Author::model()->findAllByPk( $author_id);
@@ -48,7 +16,8 @@ class AuthorController extends APIController {
 
 	public function actionList() {
 		$data = null;
-		$records = Author::model()->findAll();
+		$dependency = new CDbCacheDependency('SELECT count(*) FROM tbl_authors');
+		$records = Author::model()->cache(30000, $dependency)->findAll();
 		if( !empty( $records)) {
 			$data = $this->convernAR2Array( $records);
 		} else
@@ -102,7 +71,7 @@ class AuthorController extends APIController {
 		if( !empty( $models)) {
 			$deleted_count = 0;
 			foreach( $models as $model)
-				if( $model[0]->delete())
+				if( $model->delete())
 					$deleted_count ++;
 			
 			if( $deleted_count > 0)
@@ -113,5 +82,4 @@ class AuthorController extends APIController {
 			$this->setHeader( 500, 'We dont find this obj on DB.');
 		$this->sendResponse();
 	}
-
 }

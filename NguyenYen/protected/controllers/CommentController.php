@@ -30,36 +30,34 @@ class CommentController extends ApiController{
     }
     
     //create api view comment by id
-//    public function actionView(){
-//        echo "jgdh";die;
-//        if(isset($_GET['id']))
-//            $id = $_GET['id'];
-//        else {
-//            $data = array('error'=>array('status'=>204,'message'=>'no content'));
-//            $this->response($data);
-//        }
-//        //validate params
-//        $model = Comment::model();
-//        $model->scenario = 'CommnetId'; // create scenario name
-//	$model->id = $id; // set value for id
-//	if (!$model->validate()){
-//		$result = $this->get_error_validates($model->getErrors());
-//		$this->response($result, 'errors');
-//	}
-//	$data = $model->findByPk($id);
-//	if(empty($data)) 	
-//        $this->response(array('error'=>array('status'=>204, 'message'=>'No Content')));
-//        else {
-//        $data_response = array(
-//		'error'=> array('status'=>200, 'message'=>''),
-//		'datas'=>$data->attributes
-//		);
-//	$this->response($data_response);	
-//	}
-//        
-//       
-//            
-//    }
+    public function actionView(){
+       
+        if(isset($_GET['id']))
+            $id = $_GET['id'];
+        else {
+            $data = array('error'=>array('status'=>204,'message'=>'no content'));
+            $this->response($data);
+        }
+        //validate params
+        $model = Comment::model();
+        $model->scenario = 'CommnetId'; // create scenario name
+	$model->id = $id; // set value for id
+	if (!$model->validate()){
+		$result = $this->get_error_validates($model->getErrors());
+		$this->response($result, 'errors');
+	}
+	$data = $model->findByPk($id);
+	if(empty($data)) 	
+        $this->response(array('error'=>array('status'=>204, 'message'=>'No Content')));
+        else {
+        $data_response = array(
+		'error'=> array('status'=>200, 'message'=>''),
+		'datas'=>$data->attributes
+		);
+	$this->response($data_response);	
+	}
+               
+    }
     
 }
 

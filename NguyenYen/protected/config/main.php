@@ -73,8 +73,9 @@ return array(
                                 array('user/create', 'pattern'=>'user.<exts:>', 'verb'=>'POST'), // Create*/
                                 //end Test APIs User Group
                                 //Test APIs Comment Group
+                                
+                                array('comment/view', 'pattern'=>'comment/<id:\d+>.<exts:>', 'verb'=>'GET'),//view
                                 array('comment/list', 'pattern'=>'comment.<exts:>', 'verb'=>'GET'),//list
-//                                array('comment/view', 'pattern'=>'comment/<id:\d+>.<exts:>', 'verb'=>'GET'),//view
 //                                array('comment/update', 'pattern'=>'comment/<id:\d+>.<exts:>', 'verb'=>'PUT'),  // Update
 //                                array('comment/delete', 'pattern'=>'comment/<id:\d+>.<exts:>', 'verb'=>'DELETE'),//delete
 //                                array('commet/create', 'pattern'=>'comment.<exts:>', 'verb'=>'POST'), // Create
@@ -88,15 +89,15 @@ return array(
 //		'cache'=>array(
 //                    'class'=>'system.caching.CDbCache',
 //                ),
-             	'cache'=>array(
- 		     'class'=>'ext.redis.CRedisCache',
- 		//if you dont set up the servers options it will use the default one
- 		//"host=>'127.0.0.1',port=>6379"
- 	        'servers'=>array(
- 		 array(
- 		 'host'=>'127.0.0.1',
- 		 'port'=>6379,
- 		 ))),
+//             	'cache'=>array(
+// 		     'class'=>'ext.redis.CRedisCache',
+// 		//if you dont set up the servers options it will use the default one
+// 		//"host=>'127.0.0.1',port=>6379"
+// 	        'servers'=>array(
+// 		 array(
+// 		 'host'=>'127.0.0.1',
+// 		 'port'=>6379,
+// 		 ))),
             
             
             
@@ -106,18 +107,15 @@ return array(
 //		),
 		// uncomment the following to use a MySQL database
 		
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yiitest',
-			'emulatePrepare' => true,
-//                        'enableProfiling'=>true,
-//                        'enableParamLogging'=>true,
-                    
-			'username' => 'root',
-			'password' => 'root',
-			'charset' => 'utf8',
-                        'tablePrefix' => 'tbl_',
-		),
-		
+	        'db' => array(
+                    'connectionString' => 'mysql:host=127.0.0.1;dbname=yiitest;',
+                    'emulatePrepare' => true,
+                    'username' => 'root',
+                    'password' => 'root',
+                    'charset' => 'utf8',
+                    'tablePrefix' => 'tbl_',
+                ),
+           
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
@@ -127,7 +125,7 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning, info',
 				),
 				// uncomment the following to show log messages on web pages
 				/*

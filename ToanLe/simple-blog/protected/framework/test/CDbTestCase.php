@@ -71,7 +71,7 @@ abstract class CDbTestCase extends CTestCase
 	 * @return mixed the property value
 	 */
 	public function __call($name,$params)
-	{
+	{		
 		if(is_array($this->fixtures) && isset($params[0]) && ($record=$this->getFixtureManager()->getRecord($name,$params[0]))!==false)
 			return $record;
 		else

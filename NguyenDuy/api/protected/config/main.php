@@ -52,7 +52,7 @@ return array(
 			'showScriptName' => false,
             'baseUrl'        => '',
             'rules'          => array(
-                array('restUser/index',  'pattern' => 'users/list', 'verb' => 'GET', 'parsingOnly' => true),
+                array('user/index',  'pattern' => 'users', 'verb' => 'GET', 'parsingOnly' => true),
                 array('restUser/create', 'pattern' => 'users', 'verb' => 'POST', 'parsingOnly' => true),
                 array('restUser/view',   'pattern' => 'users/<id>', 'verb' => 'GET', 'parsingOnly' => true),
                 array('restUser/update', 'pattern' => 'users/<id>', 'verb' => 'PUT', 'parsingOnly' => true),

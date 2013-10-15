@@ -1,44 +1,49 @@
 <?php
+/**
+ *
+ * @author letoan
+ *
+ */
 
 Yii::import('application.controllers.ApiController');
 
 class PostController extends ApiController
 {
+	
 	public function actionList()
 	{
+		Yii::log("action is list is called", 'info', 'application.controllers.PostController');
 		$cache = Yii::app()->cache;
-		$array_result_init = array('error'=>array('status'=>STATUS_SUCCESS, 'message'=>''));
-			
+				
 		$cached_data = $cache->get('cached_data');
+		
 		if($cached_data == false)
 		{
-			$data = Yii::app()->db->createCommand('SELECT * FROM tbl_post')->queryAll();
-
+			$data = Post::model()->getAllItem();
+			$array_data = array('hit_count' => count($data), 'items' => $data);
+	 
 			//cache data in 1 minute
-			Yii::app()->cache->set('cache_data', $data, TIME_CACHED_DATA );
+			Yii::app()->cache->set('cache_data', $array_data, TIME_CACHED_DATA );
 		}
 		else
 		{
-			$data = $cached_data;
+			$array_data = $cached_data;
 		}
 			
-		echo $this->response(array_merge($array_result_init, $data));
+		echo $this->response(array_merge($this->init_array, $array_data));
 
 	}
-
+	
+	
 	public function actionView()
 	{
-		$array_result_init = array('error'=>array('status'=>STATUS_SUCCESS, 'message'=>''));
+		
 		$cache = Yii::app()->cache;
 		if(isset($_GET['id']))
 		{
-			$sql = "select * from tbl_post where id = :id";
-			$command = Yii::app()->db->createCommand($sql);
-			$command->bindParam(":id", $_GET['id']);
-			$data = $command->query()->readAll();
-			//var_dump($data); die;
+			$data = Post::model()->getItembyId($_GET['id']);
 
-			echo $this->response(array_merge($array_result_init, $data));
+			echo $this->response(array_merge($this->init_array, $data));
 		}
 
 	}
@@ -46,8 +51,6 @@ class PostController extends ApiController
 	public function actionUpdate()
 	{
 		// Get PUT parameters
-
-		$init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
 
 		try {
 
@@ -72,7 +75,7 @@ class PostController extends ApiController
 
 			// Try to save the model
 			if($model->save()) {
-				echo $this->response($init_array);
+				echo $this->response($this->init_array);
 			}
 			else {
 				throw new Exception("Message error", SERVER_ERROR);
@@ -88,7 +91,7 @@ class PostController extends ApiController
 	}
 
 	public function actionDelete() {
-		$init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
+		
 		$model = Post::model()->findByPk($_GET['id']);
 		try{
 			// Was a model found?
@@ -100,7 +103,7 @@ class PostController extends ApiController
 			// Delete the model
 			$num = $model->delete();
 			if($num>0)
-				echo $this->response($init_array);
+				echo $this->response($this->init_array);
 			else
 				throw new Exception("Message error", SERVER_ERROR);
 		}
@@ -113,8 +116,7 @@ class PostController extends ApiController
 	}
 
 	public function actionCreate()
-	{
-		$init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
+	{		
 		$model = new Post;
 
 		try {
@@ -130,7 +132,7 @@ class PostController extends ApiController
 			// Try to save the model
 			if($model->save()) {
 				// Saving was OK
-				echo $this->response($init_array);
+				echo $this->response($this->init_array);
 					
 			} else {
 				throw new Exception("Message error", SERVER_ERROR);

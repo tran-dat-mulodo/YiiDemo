@@ -2,6 +2,12 @@
 
 class ApiController extends CController
 {
+	public function behaviors()
+	{
+		return array(
+			'restAPI' => array('class' => '\rest\controller\Behavior')
+		);
+	}
 	/**
 	 * Renders a view with a layout.
 	 *

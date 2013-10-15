@@ -29,10 +29,20 @@ return array(
 		),
 		
 		#Using cache with CDbCache
-		'cache'=>array(
-            'class'=>'system.caching.CDbCache',
+//		'cache'=>array(
+//            //'class'=>'system.caching.CDbCache',
+//        ),
+        'cache'=>array(
+                'class'=>'ext.redis.CRedisCache',
+                //if you dont set up the servers options it will use the default one 
+//                        "host"=>'127.0.0.1',"port"=>6379"
+                'servers'=>array(
+                        array(
+                                'host'=>'127.0.0.1',
+                                'port'=>6379,
+                        ),
+                ),
         ),
-		
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',
@@ -73,11 +83,11 @@ return array(
                         'post/<id:\d+>/testfragment'=>'post/fragmentcache',
                         'posts/<tag:.*?>.html'=>'post/index',
                         // REST patterns
-                        array('api1/list', 'pattern'=>'api1/<model:\w+>.<exts:>', 'verb'=>'GET'),
-                        array('api1/view', 'pattern'=>'api1/<model:\w+>/<id:\d+>.<exts:>', 'verb'=>'GET'),
-                        array('api1/update', 'pattern'=>'api1/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
-                        array('api1/delete', 'pattern'=>'api1/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
-                        array('api1/create', 'pattern'=>'api1/<model:\w+>', 'verb'=>'POST'), // Create
+                        array('api/list', 'pattern'=>'api/<model:\w+>.<exts:>', 'verb'=>'GET'),
+                        array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>.<exts:>', 'verb'=>'GET'),
+                        array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),  // Update
+                        array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+                        array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'), // Create
                         //Test API
                         array('postid/view', 'pattern'=>'postid.<exts:>', 'verb'=>'GET'),
                         array('postid/update', 'pattern'=>'postid.<exts:>', 'verb'=>'PUT'),

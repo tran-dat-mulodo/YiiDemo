@@ -1,6 +1,6 @@
 <?php
 
-class PostController extends Controller {
+class PostController extends ApiController {
 	public $layout = 'column2';
 
 	/**

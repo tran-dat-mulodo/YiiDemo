@@ -277,7 +277,7 @@ class ApiBase extends CController {
 			elseif (method_exists(Yii::app()->httpval, 'to_'.$this->response->format))
 			{
 				
-				// Set the correct format header				
+				// Set the correct format header								
 				header('Content-Type: '.$this->_supported_formats[$this->response->format]);
 
 				//show info benchmark if flag_profiler is TRUE				

@@ -53,7 +53,7 @@ return array(
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
-            'errorAction'=>'site/error',
+            'errorAction'=>'api/handleerror',
         ),
         'cache' => array(
         	'class' => 'CRedisCache',
@@ -66,10 +66,13 @@ return array(
         	'urlFormat'=>'path',
         	'showScriptName' => false,
         	'rules'=>array(
-        	array('<controller>/view', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'GET'),        	
+        	array('<controller>/create', 'pattern' => '<controller:\w+>', 'verb' => 'POST'),
         	array('<controller>/list', 'pattern' => '<controller:\w+>', 'verb' => 'GET'),
+        	array('<controller>/view', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'GET'),        	        	
         	array('<controller>/update', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'PUT'),
         	array('<controller>/delete', 'pattern' => '<controller:\w+>/<id:\d+>', 'verb' => 'DELETE'),
+        	
+        	
                         // REST patterns
 //                         array('post/list', 'pattern'=>'post/<model:\w+>', 'verb'=>'GET'),
 //                         array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),

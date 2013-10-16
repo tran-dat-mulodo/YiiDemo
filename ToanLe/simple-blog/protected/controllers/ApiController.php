@@ -14,8 +14,9 @@ class ApiController extends ApiBase
     /**
      * Key which has to be in HTTP USERNAME and PASSWORD headers 
      */
-    Const APPLICATION_ID = 'ASCCPE';
+    //Const APPLICATION_ID = 'ASCCPE';
     protected  $init_array = array('error'=>array('status'=> STATUS_SUCCESS, 'message'=> ''));
+    
 
     private $format = 'json';
     /**
@@ -143,5 +144,11 @@ class ApiController extends ApiBase
             return;
         }
     }  
+    
+    public function actionHandleError()
+    {
+    	$error_array = array(error=> array('status' => RESOURCE_NOT_FOUND, 'message' => 'The resource is not existed'));
+    	echo $this->response($error_array);
+    }
      
 }

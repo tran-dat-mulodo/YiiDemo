@@ -1,5 +1,5 @@
-<?php 
-abstract class APIController extends CController {
+<?php
+class APIController extends CController {
 
 	private $_responseType = 'xml';
 
